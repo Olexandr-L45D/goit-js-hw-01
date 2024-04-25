@@ -3,6 +3,7 @@ let content;
 let padding;
 let border;
  
+let totalWidth = `${content + padding*2 + border*2}`;
 
  function getElementWidth(content, padding, border) {
    
